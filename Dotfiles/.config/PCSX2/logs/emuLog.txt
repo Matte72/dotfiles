@@ -1,0 +1,310 @@
+Gtk-Message: Failed to load module "atk-bridge"
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:1124): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+PCSX2 1.5.0-20170727002325 - compiled on Jul 28 2017
+Savestate version: 0x9a0d0000
+
+Host Machine Init:
+	Operating System =  Linux 4.11.12-1-ck-sandybridge x86_64
+	Physical RAM     =  3837 MB
+	CPU name         =  Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+	Vendor/Model     =  GenuineIntel (stepping 07)
+	CPU speed        =  2.489 ghz (4 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  bfebfbff 1fbae3ff
+	x86EFlags        =  28100000
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX
+
+Installing POSIX SIGSEGV handler...
+Reserving memory for recompilers...
+
+Loading plugins from /usr/lib32/pcsx2...
+	Bound   GS: libGSdx.so [GSdx (GCC 7.1.1 AVX/AVX) 1.1.0]
+	Bound  PAD: libonepad-legacy.so [OnePAD 20170727002325 1.3.0]
+	Bound SPU2: libspu2x-2.0.0.so [SPU2-X 2.0.0]
+	Bound CDVD: libcdvdGigaherz.so [cdvdGigaherz 20170727002325 0.11.0]
+	Bound  USB: libUSBnull-0.7.0.so [USBnull Driver 20170727002325 0.7.0]
+	Bound   FW: libFWnull-0.7.0.so [FWnull Driver 20170727002325 0.7.0]
+	Bound DEV9: libdev9null-0.5.0.so [DEV9null Driver 20170727002325 0.5.0]
+Plugins loaded successfully.
+
+(GameDB) 9712 games on record (loaded in 274ms)
+HLE Notice: ELF does not have a path.
+
+Initializing plugins...
+	Init GS
+	Init PAD
+	Init SPU2
+	Init CDVD
+	Init USB
+	Init FW
+	Init DEV9
+Plugins initialized successfully.
+
+Patches: No CRC found, using 00000000 instead.
+Opening plugins...
+	Opening GS
+OpenGL information. GPU: Mesa DRI Intel(R) Sandybridge Mobile x86/MMX/SSE2. Vendor: Intel Open Source Technology Center. Driver: (Core Profile) Mesa 17.1.5
+INFO: GL_EXT_texture_filter_anisotropic is available
+INFO: GL_ARB_gpu_shader5 is NOT SUPPORTED
+INFO: GL_ARB_viewport_array is available
+INFO: GL_ARB_shader_image_load_store is NOT SUPPORTED
+INFO: GL_ARB_clear_texture is available
+Failed to init the freetype face
+INFO: GL_ARB_direct_state_access is available
+INFO: GL_ARB_texture_barrier is available
+INFO: GL_ARB_get_texture_sub_image is available
+
+Current Renderer: OpenGL (Hardware renderer)
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:0
+	Opening PAD
+	Opening SPU2
+Request SDL audio driver: alsa
+Opened SDL audio driver: alsa	Opening CDVD
+
+isoFile open ok: /home/madry/retro/ps2/Final Fantasy XII (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1985600 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+McdSlot 0 [File]: /home/madry/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/madry/.config/PCSX2/memcards/Mcd002.ps2
+Plugins opened successfully.
+EE/iR5900-32 Recompiler Reset
+	Bios Found: Japan   v01.00(17/01/2000)  Console
+	BIOS r module not found, skipping...
+	BIOS r module not found, skipping...
+	BIOS e module not found, skipping...
+# Initialize memory (rev:3.17, ctm:393Mhz, cpuclk:295Mhz )
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2000-0117, IOP info (CPUID=1f, CACH_CONFIG=ffffffff, 2MB, IOP mode)
+ <20000117-050310,ROMconf,:11232>
+# Total accessable memory size: 32 MB (B:2:8:0)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Dec 10 1999 17:48:37
+  CPUID=2e20, BoardID=0, ROMGEN=2000-0117, 32M
+
+Patches: No CRC found, using 00000000 instead.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_209.63;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+ELF (cdrom0:\SLUS_209.63;1) Game CRC = 0x0779FBDB, EntryPoint = 0x00180008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_209.63;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SLUS_209.63;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SLUS_209.63;1
+1 00180000 002f4a58 ................................................
+2 00474a80 000d31bb ..............
+3 01780000 0002eff0 ....
+4 01780000 00007140 ..
+Loaded, cdrom0:¥SLUS_209.63;1
+start address 0x180008
+gp address 00000000
+# Loader 'cdrom0:¥SLUS_209.63;1':pc=00180008
+Elf entry point @ 0x00180008 about to get recompiled. Load patches first.
+(UpdateVSyncRate) Mode Changed to NTSC.
+(UpdateVSyncRate) FPS Limit Changed : 59,94 fps
+Get Reboot Request From EE
+GSdx Lookup CRC:779FBDB
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+cdvd driver module version 0.1.1 (C)SCEI
+loadmodule: fname cdrom0:¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥SIO2D.IRX;1 args 0 arg 
+loadmodule: id 26, ret 0
+loadmodule: fname cdrom0:¥DBCMAN.IRX;1 args 0 arg 
+loadmodule: id 27, ret 0
+loadmodule: fname cdrom0:¥PAD2¥DS2O.IRX;1 args 0 arg 
+loadmodule: id 28, ret 0
+loadmodule: fname cdrom0:¥PAD2¥DS2O.IRX;1 args 0 arg 
+loadmodule: id 29, ret 0
+loadmodule: fname cdrom0:¥LIBSD.IRX;1 args 0 arg 
+loadmodule: id 30, ret 0
+loadmodule: fname cdrom0:¥IOPSOUND.IRX;1 args 0 arg 
+loadmodule: id 31, ret 2
+loadmodule: fname cdrom0:¥MCMAN.IRX;1 args 0 arg 
+loadmodule: id 32, ret 2
+loadmodule: fname cdrom0:¥MCSERV.IRX;1 args 0 arg 
+loadmodule: id 33, ret 2
+[7;34mIOP-Sound[0m:
+[7;34mIOP-Sound[0m:[7;34mIopSoundDriver Start.[0m
+[7;34mIOP-Sound[0m:
+[7;34mIOP-Sound[0m:IopFreeMemory   : Max      Continuous
+[7;34mIOP-Sound[0m:                : 000DA600 000DA600
+[7;34mIOP-Sound[0m:IopStackAddress : Init     Start
+[7;34mIOP-Sound[0m:                : 001FECD0 001EBD18
+[7;34mIOP-Sound[0m:
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 35 Programs, 28 Pipelines
+Plugins closed successfully.
+ > Selected savestate slot 0
+Loading savestate from slot 0...
+	filename: /home/madry/.config/PCSX2/sstates/SLUS-20963 (0779FBDB).00.p2s
+	Opening GS
+Failed to init the freetype face
+Current Renderer: OpenGL (Hardware renderer)
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:779FBDB
+	Loading GS
+	Loading PAD
+	Loading SPU2
+Opening plugins...
+	Opening PAD
+	Opening SPU2
+Request SDL audio driver: alsa
+	Opening CDVD
+Opened SDL audio driver: alsa
+isoFile open ok: /home/madry/retro/ps2/Final Fantasy XII (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1985600 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+McdSlot 0 [File]: /home/madry/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/madry/.config/PCSX2/memcards/Mcd002.ps2
+Plugins opened successfully.
+EE/iR5900-32 Recompiler Reset
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 72 Programs, 28 Pipelines
+Plugins closed successfully.
+Suspending single plugin: GS
+	Opening GS
+Failed to init the freetype face
+Current Renderer: OpenGL (Hardware renderer)
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:779FBDB
+	Saving GS
+	Closing GS
+Delete 0 Shaders, 34 Programs, 28 Pipelines
+Recovering single plugin: GS
+	Opening GS
+Failed to init the freetype face
+Current Renderer: OpenGL (Hardware renderer)
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:779FBDB
+	Loading GS
+Opening plugins...
+	Opening PAD
+	Opening SPU2
+Request SDL audio driver: alsa
+	Opening CDVDOpened SDL audio driver: alsa
+
+isoFile open ok: /home/madry/retro/ps2/Final Fantasy XII (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1985600 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+McdSlot 0 [File]: /home/madry/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/madry/.config/PCSX2/memcards/Mcd002.ps2
+Plugins opened successfully.
+MaskOn/DenyBonePhysicalでの物理初期化:PC00
+MaskOn/DenyBonePhysicalでの物理初期化:BOSS_レモラ
+MaskOn/DenyBonePhysicalでの物理初期化:Moon_l
+MaskOn/DenyBonePhysicalでの物理初期化:Moon_s
+MaskOn/DenyBonePhysicalでの物理初期化:CamDir
+MaskOn/DenyBonePhysicalでの物理初期化:Basch
+MaskOn/DenyBonePhysicalでの物理初期化:Soldier01
+MaskOn/DenyBonePhysicalでの物理初期化:Soldier02
+MaskOn/DenyBonePhysicalでの物理初期化:Soldier03
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 82 Programs, 28 Pipelines
+Plugins closed successfully.
+Decommitting host memory for virtual systems...
+Shutting down plugins...
+Plugins shutdown successfully.
+(GameDB) Unloading...

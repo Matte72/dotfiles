@@ -1,0 +1,45 @@
+#
+#  ePSXe config file 1.9.0
+#
+
+# Plugins names
+VideoPlugin = GPUCORE
+SoundPlugin = SPUCORE
+# File paths/names
+BiosPath = /home/madry/bios/PSX/PSX - SCPH1001.BIN
+CdromDevice = /dev/cdrom
+IsoDirectory = /home/madry/PSX
+
+BiosHLE = 0
+# Memory cards [files]
+MemcardPath1 = memcards/epsxe000.mcr
+MemcardPath2 = memcards/epsxe001.mcr
+
+# Video/Sounds options [0-disabled, 1-enabled]
+VideoFullScreen = 0
+SoundEnabled = 1
+# Keys [16-keycodes]
+Keys1 = 25,28,26,27,40,53,52,39,54,0,0,55,111,114,116,113
+Keys2 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Keys3 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Keys4 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Multitap1 = 0
+
+Keys5 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Keys6 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Keys7 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Keys8 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Multitap2 = 0
+GamepadFullAxis = 192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192,192
+GamepadType = 1,0,0,0,1,0,0,0
+Joystick1 = none
+Joystick2 = none
+Joystick3 = none
+Joystick4 = none
+Joystick5 = none
+Joystick6 = none
+Joystick7 = none
+Joystick8 = none
+
+# Misc options [0-disabled, 1-enabled]
+AutoPpfLoad = 1
